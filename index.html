@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Académico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Joaquin Ruiz</h1>
+            <p>Bitácora para la materia de "Desarrollo de Competencias Gerenciales y Empresariales"</p>
+        </header>
+
+        <div class="posts-grid">
+            <!-- Ejemplo de post con imagen -->
+            <a href="posts/entrada_1.html" class="post-card">
+                <div class="post-image">
+                    <img src="img/introduccion.jpeg" alt="Introducción al blog" onerror="this.parentElement.innerHTML='📄'">
+                </div>
+                <div class="post-content">
+                    <h2 class="post-title">Entrada 1</h2>
+                    <div class="post-excerpt">Presentación personal</div>
+                    <div class="post-meta">Publicado el 19 de agosto de 2025</div>
+                </div>
+            </a>
+
+            <!-- Ejemplo de post sin imagen -->
+            <a href="posts/entrada_2.html" class="post-card">
+                <div class="post-image">
+                    <img src="img/entrada_2/16_personalities.png" alt="Introducción al blog" onerror="this.parentElement.innerHTML='📄'">
+                </div>
+                <div class="post-content">
+                    <h2 class="post-title">Entrada 2</h2>
+                    <div class="post-excerpt">Test de 16 personalidades</div>
+                    <div class="post-meta">Publicado el 19 de agosto de 2025</div>
+                </div>
+            </a>
+
+            <!-- Ejemplo de post con imagen -->
+            <a href="posts/entrada_3.html" class="post-card">
+                <div class="post-image">
+                    <img src="img/entrada_3/test_inteligencias_multiples.webp" alt="Ensayo de historia" onerror="this.parentElement.innerHTML='📜'">
+                </div>
+                <div class="post-content">
+                    <h2 class="post-title">Entrada 3</h2>
+                    <div class="post-excerpt">Test de Inteligencias Múltiples</div>
+                    <div class="post-meta">Publicado el 19 de agosto de 2025</div>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
